@@ -18,7 +18,9 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6
+}
+header h1 .seo {
+    color: #d9dcd6;
 }
 header a {
     color: #ffffff;
@@ -95,11 +97,6 @@ p {
 .content img {
     max-height: 200px;
 }
-.content-text {
-    font-size: 33px;
-    float: left;
-    width: 65;
-}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -114,7 +111,6 @@ p {
     font-size: 36px;
 }
 
-}
  /* Footer Section Start> */
 footer {
     padding: 30px;
